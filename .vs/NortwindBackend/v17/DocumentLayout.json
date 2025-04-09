@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FFFA7B9A-975D-4250-8DC4-B6D793078D03}|Business\\Business.csproj|c:\\users\\ktetik\\source\\repos\\nortwindbackend\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFA7B9A-975D-4250-8DC4-B6D793078D03}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B24DAE0D-2F15-4CFB-BB7D-C7EF04136972}|DataAccess\\DataAccess.csproj|c:\\users\\ktetik\\source\\repos\\nortwindbackend\\dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B24DAE0D-2F15-4CFB-BB7D-C7EF04136972}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8BD6807-DF33-4896-B588-167001027424}|Core\\Core.csproj|c:\\users\\ktetik\\source\\repos\\nortwindbackend\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8BD6807-DF33-4896-B588-167001027424}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFFA7B9A-975D-4250-8DC4-B6D793078D03}|Business\\Business.csproj|c:\\users\\ktetik\\source\\repos\\nortwindbackend\\business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFFA7B9A-975D-4250-8DC4-B6D793078D03}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B24DAE0D-2F15-4CFB-BB7D-C7EF04136972}|DataAccess\\DataAccess.csproj|c:\\users\\ktetik\\source\\repos\\nortwindbackend\\dataaccess\\concrete\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B24DAE0D-2F15-4CFB-BB7D-C7EF04136972}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F8BD6807-DF33-4896-B588-167001027424}|Core\\Core.csproj|c:\\users\\ktetik\\source\\repos\\nortwindbackend\\core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8BD6807-DF33-4896-B588-167001027424}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F8BD6807-DF33-4896-B588-167001027424}|Core\\Core.csproj|c:\\users\\ktetik\\source\\repos\\nortwindbackend\\core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F8BD6807-DF33-4896-B588-167001027424}|Core\\Core.csproj|solutionrelative:core\\dataaccess\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B24DAE0D-2F15-4CFB-BB7D-C7EF04136972}|DataAccess\\DataAccess.csproj|c:\\users\\ktetik\\source\\repos\\nortwindbackend\\dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B24DAE0D-2F15-4CFB-BB7D-C7EF04136972}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iproductdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "ProductManager.cs",
+              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\Business\\Concrete\\ProductManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
+              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\Business\\Concrete\\ProductManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:31:00.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\Business\\Abstract\\IProductService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IProductService.cs",
+              "ToolTip": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\Business\\Abstract\\IProductService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T10:26:23.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "EfEntityRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "RelativeDocumentMoniker": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "ToolTip": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
               "RelativeToolTip": "Core\\DataAccess\\EntityFramework\\EfEntityRepositoryBase.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T07:17:15.964Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EfProductDal.cs",
               "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfProductDal.cs",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "NortwindContext.cs",
               "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\DataAccess\\Concrete\\EntityFramework\\Contexts\\NortwindContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\Contexts\\NortwindContext.cs",
@@ -73,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IEntityRepository.cs",
               "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\Core\\DataAccess\\IEntityRepository.cs",
               "RelativeDocumentMoniker": "Core\\DataAccess\\IEntityRepository.cs",
@@ -86,13 +120,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IProductDal.cs",
               "DocumentMoniker": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\DataAccess\\Abstract\\IProductDal.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\IProductDal.cs",
               "ToolTip": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\DataAccess\\Abstract\\IProductDal.cs",
               "RelativeToolTip": "DataAccess\\Abstract\\IProductDal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T06:27:41.38Z",
               "EditorCaption": ""
