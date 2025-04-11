@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Business.Abstract;
+using Business.Constans;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 
@@ -18,34 +20,64 @@ namespace Business.Concrete
             _productDal = productDal;
         }
 
-        public void Add(Product product)
+        public IDataResult<Product> GetById(int productId)
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
         }
 
-        public void Delete(Product product)
+        public IDataResult<List<Product>> GetList()
         {
-            _productDal.Delete(product);
+            return new SuccessDataResult<List<Product>>(_productDal.GetList().ToList());
         }
 
-        public Product GetById(int productId)
+        public IDataResult<List<Product>> GetListByCategory(int categoryId)
         {
-            return _productDal.Get(p => p.ProductId == productId);
+            return new SuccessDataResult<List<Product>>(_productDal.GetList(p => p.CategoryId == categoryId).ToList());
         }
 
-        public List<Product> GetList()
+        public IResult Add(Product product)
         {
-            return _productDal.GetList().ToList();
+            return new SuccessResult(true, Messages.ProductAdded);
         }
 
-        public List<Product> GetListByCategory(int categoryId)
+        public IResult Delete(Product product)
         {
-            return _productDal.GetList(p => p.CategoryId == categoryId).ToList();
+            return new SuccessResult(true, Messages.ProductDeleted);
         }
 
-        public void Update(Product product)
+        public IResult Update(Product product)
         {
-            _productDal.Update(product);
+            return new SuccessResult(true, Messages.ProductUpdated);
         }
+
+        //public void Add(Product product)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        //public void Delete(Product product)
+        //{
+        //    _productDal.Delete(product);
+        //}
+
+        //public Product GetById(int productId)
+        //{
+        //    return _productDal.Get(p => p.ProductId == productId);
+        //}
+
+        //public List<Product> GetList()
+        //{
+        //    return _productDal.GetList().ToList();
+        //}
+
+        //public List<Product> GetListByCategory(int categoryId)
+        //{
+        //    return _productDal.GetList(p => p.CategoryId == categoryId).ToList();
+        //}
+
+        //public void Update(Product product)
+        //{
+        //    _productDal.Update(product);
+        //}
     }
 }

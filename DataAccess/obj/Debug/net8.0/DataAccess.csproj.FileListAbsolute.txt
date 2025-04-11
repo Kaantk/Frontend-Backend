@@ -1,0 +1,6 @@
+C:\Users\ktetik\source\repos\NortwindBackend\DataAccess\obj\Debug\net8.0\DataAccess.csproj.AssemblyReference.cache
+C:\Users\ktetik\source\repos\NortwindBackend\DataAccess\obj\Debug\net8.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ktetik\source\repos\NortwindBackend\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\ktetik\source\repos\NortwindBackend\DataAccess\obj\Debug\net8.0\DataAccess.AssemblyInfo.cs
+C:\Users\ktetik\source\repos\NortwindBackend\DataAccess\obj\Debug\net8.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ktetik\source\repos\NortwindBackend\DataAccess\obj\Debug\net8.0\DataAccess.sourcelink.json
