@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pH6qri8es2g=",
+  "dgSpecHash": "KrwKv8GGKuA=",
   "success": true,
   "projectFilePath": "C:\\Users\\ktetik\\source\\repos\\NortwindBackend\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ktetik\\.nuget\\packages\\autofac\\8.2.1\\autofac.8.2.1.nupkg.sha512",
+    "C:\\Users\\ktetik\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",
     "C:\\Users\\ktetik\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ktetik\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\ktetik\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

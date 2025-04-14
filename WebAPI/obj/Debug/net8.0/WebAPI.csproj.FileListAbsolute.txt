@@ -33,3 +33,4 @@ C:\Users\ktetik\source\repos\NortwindBackend\WebAPI\obj\Debug\net8.0\refint\WebA
 C:\Users\ktetik\source\repos\NortwindBackend\WebAPI\obj\Debug\net8.0\WebAPI.pdb
 C:\Users\ktetik\source\repos\NortwindBackend\WebAPI\obj\Debug\net8.0\WebAPI.genruntimeconfig.cache
 C:\Users\ktetik\source\repos\NortwindBackend\WebAPI\obj\Debug\net8.0\ref\WebAPI.dll
+C:\Users\ktetik\source\repos\NortwindBackend\WebAPI\obj\Debug\net8.0\WebAPI.csproj.AssemblyReference.cache

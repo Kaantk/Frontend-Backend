@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Autofac/8.2.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "8.0.1"
+        },
+        "compile": {
+          "lib/net8.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Azure.Core/1.38.0": {
         "type": "package",
         "dependencies": {
@@ -1055,6 +1071,29 @@
     }
   },
   "libraries": {
+    "Autofac/8.2.1": {
+      "sha512": "q5xYBykgdvBlcmrXzHcDWcfeVktGEraluypkC0IRTupfxk+r+z+JcXgKj5kldKGe1fflyW3Ya3y9Soe9J2CqEA==",
+      "type": "package",
+      "path": "autofac/8.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.8.2.1.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/net7.0/Autofac.dll",
+        "lib/net7.0/Autofac.xml",
+        "lib/net8.0/Autofac.dll",
+        "lib/net8.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "Azure.Core/1.38.0": {
       "sha512": "IuEgCoVA0ef7E4pQtpC3+TkPbzaoQfa77HlfJDmfuaJUCVJmn7fT0izamZiryW5sYUFKizsftIxMkXKbgIcPMQ==",
       "type": "package",
@@ -2860,6 +2899,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Autofac >= 8.2.1",
       "DataAccess >= 1.0.0",
       "Entities >= 1.0.0"
     ]
@@ -2920,6 +2960,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[8.2.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
